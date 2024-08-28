@@ -136,3 +136,28 @@ body {
     height: 40px;
     width: 40px;
 }
+
+@media screen and (max-width: 1240px) {
+    .wrapper {
+        width: 92%;
+        overflow-x: hidden;
+    }
+
+    .custom-list {
+        flex-direction: column;
+    }
+
+    .pfp-name-title {
+        flex-direction: column;;
+        margin-bottom: 45px;;
+    }
+    
+    .pfp-name-title img {
+        margin-bottom: 20px;
+        align-self: center;
+    }
+
+    .name-title {
+        margin-left: 0px;
+    }
+}
